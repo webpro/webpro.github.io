@@ -39,7 +39,8 @@
                 vertical-align: middle;
             }
 
-            .readme {
+            .project,
+			.content {
                 font-size: 1.25em;
             }
         </style>
@@ -72,7 +73,7 @@
             </div>
         </section>
 
-        <main{% if page.type == 'project' %} class="readme"{% endif %}>
+        <main class="{{ page.type }}">
             {{ content }}
         </main>
 
