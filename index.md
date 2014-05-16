@@ -21,9 +21,9 @@ Additionally, I created [dyson-generators](https://github.com/webpro/dyson-gener
 [dyson-image](https://github.com/webpro/dyson-generators) to serve dummy images (and base64 strings),
 and a [small demo package](https://github.com/webpro/dyson-demo) ([deployed at nodejitsu](http://dyson.jit.su/)).
 
-## jQuery Evergreen
+## DOMtastic
 
-[Small & fast DOM and event library](http://webpro.github.io/jquery-evergreen/) for modern browsers. Having the same familiar API as jQuery (but without the extra "weight" of modules like $.ajax, $.animate, and $.Deferred), it works great stand-alone or paired up with e.g. Backbone. The full version is only 7KB minified (2KB gzip), but it's easy to create a custom build to exclude parts you don't need.
+[Small & fast DOM and event library](http://webpro.github.io/DOMtastic/) for modern browsers. Having the same familiar API as jQuery (but without the extra "weight" of modules like $.ajax, $.animate, and $.Deferred), it works great stand-alone or paired up with e.g. Backbone. The full version is only 7KB minified (2KB gzip), but it's easy to create a custom build to exclude parts you don't need.
 
 ## Automated SPA Testing
 
@@ -40,9 +40,11 @@ Minimal footprint and best performance are important factors here.
 I also wrote Require.js plugins to compile templates at runtime and during the build process
 ([requirejs-handlebars](https://github.com/webpro/requirejs-handlebars), [requirejs-hogan](https://github.com/webpro/requirejs-hogan), and [requirejs-dust](https://github.com/webpro/requirejs-dust)).
 
-## Grunt Release It!
+## Release It!
 
-Interactive [release task](https://github.com/webpro/grunt-release-it) for the increasingly popular Grunt automation framework. This task can automatically increment the project version number, and commit, tag, and push to Git endpoints. This task is to be used with Git repositories, and it supports to optionally release a separate build to a distribution/component repository.
+Interactive [release tool](https://github.com/webpro/release-it). This task automatically increments the project version number, and commits, tags, and pushes to Git endpoints. This task is to be used with Git repositories, and it supports to optionally release a separate build to a distribution/component repository.
+
+There is also [grunt-release-it](https://github.com/webpro/grunt-release-it), a plugin for the increasingly popular Grunt automation framework.
 
 ## baseplate
 
@@ -65,3 +67,7 @@ It's been a while since I wrote about [Progressive Enhancement](http://sixrevisi
 ## Sandbox
 
 It deserves a little more love, but the [WebPro Sandbox](http://sandbox.webpro.nl) has quite some interesting tests and demos for CSS3 features and HTML5 API's that are still new and relevant.
+
+## Medium
+
+[Medium](https://medium.com/) is hosting some [articles I wrote](https://medium.com/@webprolific/latest).
