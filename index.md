@@ -1,73 +1,41 @@
 ---
 layout: index
 type: content
-title: WebPro
+title: WebPro Open Source Contributions
 ---
 
 # Open Source Contributions
 
-This directory contains some of my contributions to open source software. This includes applications, demos, articles, research, and contributions to other open source software.
+## Articles
 
-## Responsive Web Applications
-
-[In-depth article](http://mobile.smashingmagazine.com/2013/06/12/building-a-responsive-web-application/) with [working demo](http://webpro.github.io/responsive-web-apps/) for responsive web applications.
+* [Responsive Web Applications](http://mobile.smashingmagazine.com/2013/06/12/building-a-responsive-web-application/) is an in-depth article (with [working demo](http://webpro.github.io/responsive-web-apps/)) for responsive web applications.
 Responsive design has changed the way we build websites, but now we need to take it to the next level and build responsive and hybrid applications.
+* Smashing Magazine featured my article about [client-side templating](http://coding.smashingmagazine.com/2012/12/05/client-side-templating/).
+* It's been a while since I wrote about [Progressive Enhancement](http://sixrevisions.com/web-development/progressive-enhancement/) on Six Revisions, but the concept is still relevant as ever.
+* [Medium](https://medium.com/) is hosting some [articles I wrote](https://medium.com/@webprolific/latest).
 
-## dyson
+## Tools
 
-Simple yet powerful Node server to [create JSON endpoints](http://webpro.github.io/dyson/) to develop against when building web applications.
-Configure endpoints using templates and simulate real services and data stores to boost development performance.
-Additionally, I created [dyson-generators](https://github.com/webpro/dyson-generators) to generate fake data,
-[dyson-image](https://github.com/webpro/dyson-generators) to serve dummy images (and base64 strings),
-and a [small demo package](https://github.com/webpro/dyson-demo) ([deployed at nodejitsu](http://dyson.jit.su/)).
+* [Dyson](http://webpro.github.io/dyson/) is a simple yet powerful Node server for creating JSON endpoints to develop against when building web applications. Configure endpoints using templates and simulate real services and data stores to boost development performance. Additionally, I created [dyson-generators](https://github.com/webpro/dyson-generators) to generate fake data, [dyson-image](https://github.com/webpro/dyson-generators) to serve dummy images (and base64 strings), and a [small demo package](https://github.com/webpro/dyson-demo) ([deployed at nodejitsu](http://dyson.jit.su/)).
+* [Release It!](https://github.com/webpro/release-it) is an interactive release tool. It automatically increments the project version number, and commits, tags, and pushes to Git endpoints. This task is to be used with Git repositories, and it supports to optionally release a separate build to a distribution/component repository. There is also [grunt-release-it](https://github.com/webpro/grunt-release-it), a plugin for the Grunt automation framework.
+*  [Reveal-md](http://webpro.github.io/reveal-md/)  is a small Node utility to serve Markdown files as beautiful reveal.js presentations. I once [extended reveal.js](https://github.com/hakimel/reveal.js/pull/329) with the feature that allows writing slides in a single, separate Markdown file. This command line utility is taking advantage of that by converting the Markdown file to a reveal.js presentation and serving it in the browser.
+* [Benchmark suite runner](https://github.com/webpro/benchrunner) is a framework for easily writing performance tests in JavaScript.
 
-## DOMtastic
+## Libraries
 
-[Small & fast DOM and event library](http://webpro.github.io/DOMtastic/) for modern browsers. Having the same familiar API as jQuery (but without the extra "weight" of modules like $.ajax, $.animate, and $.Deferred), it works great stand-alone or paired up with e.g. Backbone. The full version is only 7KB minified (2KB gzip), but it's easy to create a custom build to exclude parts you don't need.
+* [DOMtastic](http://webpro.github.io/DOMtastic/) is a small, fast, and modular DOM & Event library for modern browsers. Having the same familiar API as jQuery (but without the extra "weight" of modules like $.ajax, $.animate, and $.Deferred), it works great stand-alone or paired up with e.g. Backbone.
 
-## Automated SPA Testing
+## Research
 
-Research around solutions for automated unit and functional [testing of single-page applications](https://github.com/webpro/Automated-SPA-Testing) (SPA).
-Requirements for potential solutions include performance, run tests in real browsers, code coverage, etc.
-The results of this research are used in the baseplate project.
+* [JS Framework Playground](https://github.com/webpro/frameground) is a project to try various frontend JS frameworks, and get a feeling for what can be accomplished with any framework in various areas.
+* [Pre-compiled templates](https://github.com/webpro/precompiled-templates) is a small repository containing research and configuration for some template engines. Minimal footprint and best performance are important factors here. I also wrote Require.js plugins to compile templates at runtime and during the build process ([requirejs-handlebars](https://github.com/webpro/requirejs-handlebars), [requirejs-hogan](https://github.com/webpro/requirejs-hogan), and [requirejs-dust](https://github.com/webpro/requirejs-dust)).
 
-## Client-side Templating
+## Misc.
 
-Smashing Magazine featured my article about [client-side templating](http://coding.smashingmagazine.com/2012/12/05/client-side-templating/).
+* [Programming Principles](https://github.com/webpro/programming-principles) is an overview of generic programming principles and patterns.
+* [Websites vs Web Applications](https://github.com/webpro/Websites-vs-Web-Applications) may serve as a basis to explain progressive enhancement and how it relates to websites, web applications, and overly complex, responsive & adaptive applications.
+* It deserves a little more love, but the [WebPro Sandbox](http://sandbox.webpro.nl) has some interesting tests and demos for CSS3 features and HTML5 API's.
 
-In the same area, this small repository about [pre-compiled templates](https://github.com/webpro/precompiled-templates) includes research and configuration for some template engines.
-Minimal footprint and best performance are important factors here.
-I also wrote Require.js plugins to compile templates at runtime and during the build process
-([requirejs-handlebars](https://github.com/webpro/requirejs-handlebars), [requirejs-hogan](https://github.com/webpro/requirejs-hogan), and [requirejs-dust](https://github.com/webpro/requirejs-dust)).
+## Archive
 
-## Release It!
-
-Interactive [release tool](https://github.com/webpro/release-it). This task automatically increments the project version number, and commits, tags, and pushes to Git endpoints. This task is to be used with Git repositories, and it supports to optionally release a separate build to a distribution/component repository.
-
-There is also [grunt-release-it](https://github.com/webpro/grunt-release-it), a plugin for the increasingly popular Grunt automation framework.
-
-## baseplate
-
-This project with working code, tooling and workflow represents [an excellent start to build web applications](https://github.com/webpro/baseplate) today.
-Packed with features and pre-configured tooling, it gives a head start for scalable and maintanable projects.
-
-## reveal-md
-
-Small Node utility to [serve Markdown files](http://webpro.github.io/reveal-md/) as beautiful reveal.js presentations.
-I once [extended reveal.js](https://github.com/hakimel/reveal.js/pull/329) with the feature that allows writing slides in a single, separate Markdown file.
-This command line utility is taking advantage of that by converting the Markdown file to a reveal.js presentation and serving it in the browser.
-
-## Progressive Enhancement
-
-These images to show the difference of [Websites vs Web Applications](https://github.com/webpro/Websites-vs-Web-Applications) may serve as a basis
-to explain progressive enhancement and how it relates to websites, web applications, and overly complex, responsive & adaptive applications.
-
-It's been a while since I wrote about [Progressive Enhancement](http://sixrevisions.com/web-development/progressive-enhancement/) on Six Revisions, but the concept is still relevant as ever.
-
-## Sandbox
-
-It deserves a little more love, but the [WebPro Sandbox](http://sandbox.webpro.nl) has quite some interesting tests and demos for CSS3 features and HTML5 API's that are still new and relevant.
-
-## Medium
-
-[Medium](https://medium.com/) is hosting some [articles I wrote](https://medium.com/@webprolific/latest).
+[GitHub repos](https://github.com/webpro?tab=repositories)
