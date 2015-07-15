@@ -8,7 +8,7 @@ title: WebPro Open Source Contributions
 
 ## Articles
 
-* [Responsive Web Applications](http://mobile.smashingmagazine.com/2013/06/12/building-a-responsive-web-application/) is an in-depth article (with [working demo](http://webpro.github.io/responsive-web-apps/)) for responsive web applications.
+* [Responsive Web Applications](http://mobile.smashingmagazine.com/2013/06/12/building-a-responsive-web-application/) is an in-depth article (with [working demo](https://webpro.github.io/responsive-web-apps/)) for responsive web applications.
 Responsive design has changed the way we build websites, but now we need to take it to the next level and build responsive and hybrid applications.
 * Smashing Magazine featured my article about [client-side templating](http://coding.smashingmagazine.com/2012/12/05/client-side-templating/).
 * It's been a while since I wrote about [Progressive Enhancement](http://sixrevisions.com/web-development/progressive-enhancement/) on Six Revisions, but the concept is still relevant as ever.
@@ -16,9 +16,9 @@ Responsive design has changed the way we build websites, but now we need to take
 
 ## Tools
 
-* [Dyson](https://webpro.github.io/dyson) is a simple yet powerful Node server for creating JSON endpoints to develop against when building web applications. Configure endpoints using templates and simulate real services and data stores to boost development performance. Additionally, I created [dyson-generators](https://github.com/webpro/dyson-generators) to generate fake data, [dyson-image](https://github.com/webpro/dyson-generators) to serve dummy images (and base64 strings), and a [small demo package](https://github.com/webpro/dyson-demo) ([deployed at nodejitsu](http://dyson.jit.su/)).
+* [Dyson](https://webpro.github.io/dyson) is a simple yet powerful Node server for creating JSON endpoints to develop against when building web applications. Configure endpoints using templates and simulate real services and data stores to boost development performance. Additionally, I created [dyson-generators](https://github.com/webpro/dyson-generators) to generate fake data, [dyson-image](https://github.com/webpro/dyson-generators) to serve dummy images (and base64 strings), and a [small demo package](https://github.com/webpro/dyson-demo) ([deployed at nodejitsu](https://dyson.jit.su/)).
 * [Release It!](https://github.com/webpro/release-it) is an interactive release tool. It automatically increments the project version number, and commits, tags, and pushes to Git endpoints. This task is to be used with Git repositories, and it supports to optionally release a separate build to a distribution/component repository. There is also [grunt-release-it](https://github.com/webpro/grunt-release-it), a plugin for the Grunt automation framework.
-*  [Reveal-md](https://webpro.github.io/reveal-md/)  is a small Node utility to serve Markdown files as beautiful reveal.js presentations. I once [extended reveal.js](https://github.com/hakimel/reveal.js/pull/329) with the feature that allows writing slides in a single, separate Markdown file. This command line utility is taking advantage of that by converting the Markdown file to a reveal.js presentation and serving it in the browser.
+* [Reveal-md](https://webpro.github.io/reveal-md/)  is a small Node utility to serve Markdown files as beautiful reveal.js presentations. I once [extended reveal.js](https://github.com/hakimel/reveal.js/pull/329) with the feature that allows writing slides in a single, separate Markdown file. This command line utility is taking advantage of that by converting the Markdown file to a reveal.js presentation and serving it in the browser.
 * [Benchmark suite runner](https://github.com/webpro/benchrunner) is a framework for easily writing performance tests in JavaScript.
 
 ## Libraries
