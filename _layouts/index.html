@@ -8,7 +8,6 @@
         <title>{{ page.title }}</title>
 
         <link rel="stylesheet" href="https://webpro.nl/stylesheet.css">
-        <link rel="stylesheet" href="https://webpro.github.io/css/prism.css">
 
         <style type="text/css">
             header {
@@ -55,10 +54,21 @@
                 margin-top: 0;
             }
 
-            pre[class*="language-"],
+            .highlighter-rouge {
+                padding: 1em;
+                margin: .5em 0;
+                overflow: auto;
+            }
+
+            .highlighter-rouge,
             table {
                 border-radius: 8px;
                 background-color: #f5f2f0;
+            }
+
+            :not(pre) > .highlighter-rouge {
+                padding: .1em .2em;
+                border-radius: .3em;
             }
 
             th, td {
@@ -97,7 +107,6 @@
             {{ content }}
         </main>
 
-        <script src="https://webpro.github.io/js/prism.js"></script>
         <script>
             var _gaq = [['_setAccount', 'UA-42001005-1'], ['_trackPageview']];
             (function(d, t) {var g = d.createElement(t), s = d.getElementsByTagName(t)[0];g.src = '//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g, s)}(document, 'script'));
